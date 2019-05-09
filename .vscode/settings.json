@@ -1,0 +1,45 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 75,
+    "editor.quickSuggestions": false,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "'Inconsolata Regular'",
+    "editor.lineNumbers": "off",
+    "editor.renderIndentGuides": false,
+    "files.trimTrailingWhitespace": true,
+    "editor.detectIndentation": false,
+    "editor.occurrencesHighlight": false,
+    "editor.folding": false,
+    "diffEditor.renderIndicators": false,
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false
+  },
+  "workbench.colorCustomizations": {
+    "editorGutter.modifiedBackground": "#0000",
+    "editorGutter.addedBackground": "#0000",
+    "editorGutter.deletedBackground": "#0000",
+    "editorOverviewRuler.addedForeground": "#0000",
+    "editorOverviewRuler.modifiedForeground": "#0000",
+    "editorOverviewRuler.deletedForeground": "#0000",
+    "activityBar.background": "#203039",
+    "titleBar.activeBackground": "#2D434F",
+    "titleBar.activeForeground": "#FAFCFC"
+  },
+  "highlight-bad-chars.additionalUnicodeChars": [
+    "\u200b",
+    "\u00a0",
+    "\u201d",
+    "\u201c",
+    "\u2013",
+    "\u2014",
+    "\u2026",
+    "\u2018",
+    "\u2019"
+  ],
+  "markdown.preview.fontFamily": "Adobe Caslon Pro",
+  "markdown.preview.fontSize": 20,
+  "markdown.preview.lineHeight": 1.6,
+  "favorites.sortDirection": "ASC",
+  "favorites.groupsFirst": true
+}
