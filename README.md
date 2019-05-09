@@ -4,6 +4,8 @@ A simple setup I used to write my thesis in Markdown and export it to a PDF with
 
 Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`--pdf-engine=lualatex`) to allow the use of non-TeX fonts (e.g. OTF). LaTeX template is extracted to `config/default.latex` for editing.
 
+![alt text](https://i.imgur.com/4T1ydpJ.png "output.pfd ")
+
 ## Installation
 
 ```
