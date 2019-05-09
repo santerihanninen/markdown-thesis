@@ -31,7 +31,7 @@ Pandoc's Markdown syntax:
 
 <!-- Figures -->
 
-See \ref{graph-wright}.
+See figure \ref{graph-wright}.
 
 ![Figure title[@march1971, p. 27]\label{graph-wright}](input/figures/march1971p27f1.13.png "Wright house plans")
 
