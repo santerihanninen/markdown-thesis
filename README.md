@@ -1,4 +1,6 @@
-# Setup and build
+# markdown-thesis
+
+A simple setup for writing a thesis in Markdown and exporting it to a PDF with Pandoc.
 
 ```shell
     sudo apt-get update
