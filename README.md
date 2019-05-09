@@ -2,7 +2,7 @@
 
 A simple setup I used to write my thesis in Markdown and export it to a PDF with Pandoc. The purpose is to be able to use Latex's citation and typography abilities without having to bother with its tedious syntax.
 
-Configuration happens mostly in `build.sh`. Latex template  is extracted to `config/default.latex` for editing. The PDF is generated with LuaTeX to allow the use of non-TeX fonts (e.g. OTF).
+Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`--pdf-engine=lualatex`) to allow the use of non-TeX fonts (e.g. OTF). LaTeX template is extracted to `config/default.latex` for editing.
 
 ## Installation
 
@@ -18,11 +18,11 @@ chmod +x ./pandoc-2.7.2/bin/pandoc-citeproc
 
 ### Usage
 
-Add chapters to `input/02-chapters/` and run `build.sh` to generate `output.pdf` in the root.
+Write chapters in `input/02-chapters/` and run `build.sh` to generate `output.pdf` in the root.
 
 Pandoc's Markdown syntax:
 
-```md
+```pandoc
 <!-- Citations -->
 
 @march1971 [p. 28]
