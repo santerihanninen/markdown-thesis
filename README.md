@@ -41,4 +41,4 @@ See \ref{graph-wright}.
 > Whilst they may look different, they are in fact topologically equivalent.[@march1971, p. 28]
 </div>
 ```
-See [Pandoc's User Guide](https://pandoc.org/MANUAL.html).
+See [Pandoc User's Guide](https://pandoc.org/MANUAL.html).
