@@ -10,7 +10,7 @@ Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`-
 
 ```
 sudo apt-get update
-sudo apt-get install texlive texlive-xetex
+sudo apt-get -y install texlive texlive-xetex python3-pip
 sudo pip3 install pandoc-latex-fontsize
 chmod +x ./build.sh
 chmod +x ./pandoc-2.7.2/bin/pandoc
