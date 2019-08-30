@@ -13,6 +13,7 @@ sudo apt-get update
 sudo apt-get -y install texlive texlive-xetex python-pip
 sudo apt-get install texlive-luatex
 sudo apt-get install pandoc
+sudo apt-get install pandoc-citeproc
 sudo pip install pandoc-latex-fontsize
 chmod +x ./build.sh
 chmod +x ./pandoc-2.7.2/bin/pandoc
