@@ -11,6 +11,7 @@ Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`-
 ```
 sudo apt-get update
 sudo apt-get -y install texlive texlive-xetex python-pip
+sudo apt-get install texlive-luatex
 sudo apt-get install pandoc
 sudo pip install pandoc-latex-fontsize
 chmod +x ./build.sh
