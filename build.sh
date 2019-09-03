@@ -1,9 +1,6 @@
 #!/bin/bash
 
-PANDOC=./pandoc-2.7.2/bin/pandoc
-CITEPROC=./pandoc-2.7.2/bin/pandoc-citeproc
-
-$PANDOC input/*/*.md \
+pandoc input/*/*.md \
 -V papersize:a4 \
 -V documentclass:scrreprt \
 -V classoption:egregdoesnotlikesansseriftitles \
@@ -27,7 +24,7 @@ $PANDOC input/*/*.md \
 --filter pandoc-latex-fontsize \
 --metadata link-citations=true \
 --bibliography ./input/references.bib \
---filter $CITEPROC \
+--filter pandoc-citeproc \
 --csl ./config/chicago-note-bibliography.csl \
 --pdf-engine=lualatex \
 -o ./output.pdf
