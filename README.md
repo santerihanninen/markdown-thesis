@@ -9,11 +9,10 @@ Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`-
 ## Installation
 
 ```
+// download latest pandoc release from https://github.com/jgm/pandoc/releases/latest
+sudo dpkg -i $DEB // "where $DEB is the path to the downloaded deb. This will install the pandoc and pandoc-citeproc executables and man pages."
 sudo apt-get update
-sudo apt-get -y install texlive texlive-xetex python-pip
-sudo apt-get install texlive-luatex
-sudo apt-get install pandoc
-sudo apt-get install pandoc-citeproc
+sudo apt-get -y install texlive python-pip texlive-luatex
 sudo pip install pandoc-latex-fontsize
 chmod +x ./build.sh
 chmod +x ./pandoc-2.7.2/bin/pandoc
