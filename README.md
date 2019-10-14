@@ -42,3 +42,7 @@ See figure \ref{graph-wright}.
 </div>
 ```
 See [Pandoc User's Guide](https://pandoc.org/MANUAL.html).
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
