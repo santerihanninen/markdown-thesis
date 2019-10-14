@@ -18,7 +18,7 @@ chmod +x ./build.sh
 ./build.sh
 ```
 
-### Usage
+## Usage
 
 Write chapters in `input/02-chapters/` and run `build.sh` to generate `output.pdf` in the root.
 
