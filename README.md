@@ -8,14 +8,14 @@ Configuration happens mostly in `build.sh`. The PDF is generated with LuaTeX (`-
 
 ## Installation
 
-```
-// download latest pandoc release from https://github.com/jgm/pandoc/releases/latest
-sudo dpkg -i $DEB // "where $DEB is the path to the downloaded deb. This will install the pandoc and pandoc-citeproc executables and man pages."
-sudo apt-get update
-sudo apt-get -y install texlive python-pip texlive-luatex
-sudo pip install pandoc-latex-fontsize
-chmod +x ./build.sh
-./build.sh
+```bash
+# download latest pandoc release from https://github.com/jgm/pandoc/releases/latest
+$ sudo dpkg -i $DEB # "where $DEB is the path to the downloaded deb. This will install the pandoc and pandoc-citeproc executables and man pages."
+$ sudo apt-get update
+$ sudo apt-get -y install texlive python-pip texlive-luatex
+$ sudo pip install pandoc-latex-fontsize
+$ chmod +x ./build.sh
+$ ./build.sh
 ```
 
 ## Usage
